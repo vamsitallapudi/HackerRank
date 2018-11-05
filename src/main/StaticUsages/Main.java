@@ -1,4 +1,4 @@
-package LearnJava.StaticUsages;
+package main.StaticUsages;
 
 import java.util.ArrayList;
 
