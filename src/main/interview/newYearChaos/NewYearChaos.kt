@@ -1,17 +1,16 @@
-package main.interview
+package main.interview.newYearChaos
 
 import java.util.*
 import kotlin.math.max
 
-// Complete the minimumBribes function below.
-fun minimumBribes(q: Array<Int>) {
+private fun minimumBribes(q: Array<Int>) {
     var bribesCount = 0
     for (i in (q.size - 1) downTo 0) {
-        if (q[i] - (i + 1) > 2) {
+        if (q[i] - (i + 1) > 2) { // to check if value is greater than the place by 2. if it is, then
             println("Too chaotic")
             return
         }
-        for (j in max(0, q[i] - 2) until i)
+        for (j in max(0, q[i] - 2) until i) //
             if (q[j] > q[i]) bribesCount++
     }
     println(bribesCount)

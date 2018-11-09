@@ -1,4 +1,4 @@
-package main.interview.hourglass_matrix
+package main.interview.hourGlassMatrix
 
 import java.util.*
 
