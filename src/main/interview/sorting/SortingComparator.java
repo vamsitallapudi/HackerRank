@@ -34,13 +34,15 @@ public class SortingComparator {
     }
 
     static class Checker implements Comparator<Player> {
-        // complete this method
         public int compare(Player a, Player b) {
             if (a.score> b.score) {
+//                to achieve descending order, sending as -1 if score of a > score of b
                 return -1;
             } else if(a.score<b.score) {
+//                to achieve descending order, sending as -1 if score of a > score of b
                 return 1;
             } else {
+//                else ascending comparision of name of a to b
                 return (a.name).compareTo(b.name);
             }
         }
