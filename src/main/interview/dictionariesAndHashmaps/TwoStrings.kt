@@ -6,7 +6,7 @@ import kotlin.collections.ArrayList
 fun main(args: Array<String>) {
     val sc = Scanner(System.`in`)
     var count = sc.nextInt()
-    sc.nextLine()
+    sc.nextLine()// to skip the blank line caused due to nextint()
 
     while (count-- > 0) {
         val string1 = sc.nextLine()

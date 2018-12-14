@@ -19,7 +19,9 @@ gradle-app.setting
 *.class
 
 # idea files
-.idea
+.idea/
+
+.iml
 
 # Log file
 *.log
